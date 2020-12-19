@@ -1,17 +1,17 @@
 import firebase from 'firebase/app'
-import 'firebase/firestore'
+import 'firebase/firestore';
 
+// Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyD2bJfRPj2XMepOEOE-ZEd2mF_H-cdOKw4",
-  authDomain: "control-de-inventarios-5dcc9.firebaseapp.com",
-  databaseURL: "https://control-de-inventarios-5dcc9.firebaseio.com",
-  projectId: "control-de-inventarios-5dcc9",
-  storageBucket: "control-de-inventarios-5dcc9.appspot.com",
-  messagingSenderId: "543040729530",
-  appId: "1:543040729530:web:33c5ad6c46fefd6fea2d83"
-  };
-   //Initialize Firebase
- const fb = firebase.initializeApp(firebaseConfig);
- 
- export const db = fb.firestore();
- 
+  apiKey: "AIzaSyA-7rQH4HA1DC0yUpHAhEY1sYKaatPJMNQ",
+  authDomain: "react-firebase-crud-2d065.firebaseapp.com",
+  databaseURL: "https://react-firebase-crud-2d065.firebaseio.com",
+  projectId: "react-firebase-crud-2d065",
+  storageBucket: "react-firebase-crud-2d065.appspot.com",
+  messagingSenderId: "366113496238",
+  appId: "1:366113496238:web:01c48c92a222813521613f",
+};
+// Initialize Firebase
+const fb = firebase.initializeApp(firebaseConfig);
+
+export const db = fb.firestore();
